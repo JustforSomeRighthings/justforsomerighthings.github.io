@@ -1,0 +1,57 @@
+
+body{
+    background-color:white;
+}
+.content td{border:none}
+.header .nav ul.menu>li{float:left}
+.container{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
+.nav-normal ul li{display: inline-block; border-right: 1px solid; margin-right: 12px; padding-right: 12px}
+.nav-normal ul li:last-of-type{border:none;}
+@media (max-width: 767px) {
+header .nav{ display:none}
+#menu_content{display:none}
+}
+
+/*
+.bs-sidenav.affix{
+    top:10px;
+}
+*/
+
+.bs-sidenav{
+    margin-top: 0px;
+}
+
+.bs-sidenav  .nav > li > ul{
+    display: none;
+}
+
+
+
+.bs-sidenav > .nav > .active > a, .bs-sidenav > .nav > .active:hover > a, .bs-sidenav > .nav > .active:focus >a{
+    font-weight: bold;
+    color: aqua;
+    background-color:transparent;
+    border-right: 1px solid aqua;
+}
+
+.bs-sidenav  .nav > .active > a, .bs-sidenav  .nav > .active:hover > a, .bs-sidenav  .nav > .active:focus >a{
+    font-weight: bold;
+    color: aqua;
+    background-color:transparent;
+    border-right: 1px solid aqua;
+}
+
+.bs-sidenav > h3{
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+
+/*
+.bs-sidenav.affix ul .active ,.bs-sidenav.affix  .active:hover{
+    color: #fff;
+   background: #0088cc;
+    border: 1px solid #0088cc;
+} 
+*/
